@@ -1,8 +1,29 @@
 aid: encore-music-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/encore-music-technologies.png
 name: Encore Music Technologies
-description: Encore Music Technologies is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Encore Music Technologies, Inc. ("Encore") is a consumer live-music technology
+  company based in Los Angeles, California, founded in 2020 by Ian Edelman,
+  Jonathan Gray, and recording artist Kid Cudi. Its mobile app lets artists
+  perform live inside custom augmented-reality environments directly from a
+  phone while fans join, react, and pay artists in real time through gamified
+  microtransactions such as a ten-cent "clap." The company raised a $9M seed
+  round led by Battery Ventures in February 2022, with participation from 468
+  Capital, Kayak Ventures, Parade Ventures, and others. Encore ships consumer
+  iOS and Android apps rather than a public developer platform; as of this pass
+  it exposes no documented public API, and its marketing website (clapforencore.com)
+  does not currently resolve to a live server.
 url: https://raw.githubusercontent.com/api-evangelist/encore-music-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +31,36 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://www.clapforencore.com/
+x-headquarters: Los Angeles, California, United States
+x-founded: '2020'
+x-sector: consumer
+x-app-store: https://apps.apple.com/us/app/encore-interactive-live-music/id1561986843
+x-google-play: https://play.google.com/store/apps/details?id=com.clapforencore.fan
+x-api-surface: none-found
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Music
+- Live Music
+- Augmented Reality
+- Consumer App
+- Creator Economy
+- Fan Engagement
+- Mobile
+- Entertainment
+common:
+- type: DomainSecurity
+  url: security/encore-music-technologies-domain-security.yml
+- type: Website
+  url: https://www.clapforencore.com/
 apis: []
 maintainers:
 - FN: Kin Lane
