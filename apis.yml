@@ -38,7 +38,7 @@ x-sector: consumer
 x-app-store: https://apps.apple.com/us/app/encore-interactive-live-music/id1561986843
 x-google-play: https://play.google.com/store/apps/details?id=com.clapforencore.fan
 x-api-surface: none-found
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 x-enrichment:
